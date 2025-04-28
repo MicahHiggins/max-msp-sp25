@@ -2,7 +2,7 @@
 	"name" : "FinalProject",
 	"version" : 1,
 	"creationdate" : 3827665193,
-	"modificationdate" : 3828675362,
+	"modificationdate" : 3828679510,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,13 +29,13 @@
 				"local" : 1
 			}
 ,
-			"ScreenRecording_04-27-2025 22-48-03_1.mov" : 			{
-				"kind" : "moviefile",
+			"Yharnam.jpg" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"Yharnam.jpg" : 			{
-				"kind" : "imagefile",
+			"Bloodborne.mp4" : 			{
+				"kind" : "moviefile",
 				"local" : 1
 			}
 

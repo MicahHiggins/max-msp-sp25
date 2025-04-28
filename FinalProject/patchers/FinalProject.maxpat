@@ -721,7 +721,7 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 0.987766601313875,
+									"pitchshift" : 0.739988844698151,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -743,7 +743,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 813.333357572555542, 1305.666703939437866, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -21 ],
+					"pitchshiftcent" : [ -521 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 379.395576953887939, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -966,7 +966,7 @@
 								"selection" : [ 0.177083333333333, 0.770833333333333 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 2.634044270170334,
+									"pitchshift" : 1.973303585861735,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -988,7 +988,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1141.333367347717285, 1184.000035285949707, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ 1677 ],
+					"pitchshiftcent" : [ 1177 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 142.0, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -1216,7 +1216,7 @@
 								"selection" : [ 0.270833333333333, 0.729166666666667 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 1.97553320262775,
+									"pitchshift" : 1.479977689396301,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -1238,7 +1238,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 781.000023722648621, 1216.000036239624023, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ 1179 ],
+					"pitchshiftcent" : [ 679 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 242.0, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -1360,7 +1360,7 @@
 								"selection" : [ 0.177083333333333, 0.802083333333333 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 0.987766601313875,
+									"pitchshift" : 0.739988844698151,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -1382,7 +1382,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1006.666696667671204, 1230.333368539810181, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -21 ],
+					"pitchshiftcent" : [ -521 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 192.0, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -5125,7 +5125,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.000000596046448, 253.895576953887939, 50.0, 22.0 ],
-					"text" : "3"
+					"text" : "17"
 				}
 
 			}
