@@ -10,10 +10,29 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 155.0, 106.0, 997.0, 653.0 ],
+		"rect" : [ 34.0, 77.0, 1132.0, 705.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.133333333333333, 0.258823529411765, 0.313725490196078, 1.0 ],
+					"bubble_bgcolor" : [ 0.741176470588235, 0.270588235294118, 0.270588235294118, 1.0 ],
+					"fontname" : "Euphorigenic",
+					"fontsize" : 27.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 940.0, 69.0, 216.0, 38.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 199.0, 283.0, 73.000000596046448, 70.0 ],
+					"text" : "Load Preset",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-152",
 					"maxclass" : "newobj",
@@ -33,7 +52,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.000000596046448, 6.5, 153.0, 48.0 ],
-					"presentation_linecount" : 3,
 					"text" : "dont remember how to get preset to load automatically "
 				}
 
@@ -45,7 +63,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1445.0, 633.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1445.0, 633.0, 153.0, 34.0 ],
 					"text" : "dont remember how to get video to load automatically "
 				}
 
@@ -104,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1791.333385705947876, 670.666686654090881, 153.0, 158.0 ],
+					"patching_rect" : [ 1791.333385705947876, 670.666686654090881, 155.0, 158.0 ],
 					"text" : "input for bloodborne trailer. Had significant trouble with the ratio of my video. I would drop the file and it would appear rotated and the rotate vizzie transformation was not working how i wanted it to so I had to squish my video down to a size ratio that it liked."
 				}
 
@@ -446,7 +464,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 925.0, 54.0, 216.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.000000596046448, 246.0, 73.0, 38.0 ],
+					"presentation_rect" : [ 199.0, 234.0, 73.0, 38.0 ],
 					"text" : "Tempo",
 					"textjustification" : 1
 				}
@@ -721,7 +739,7 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 0.739988844698151,
+									"pitchshift" : 0.78399087115868,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -743,7 +761,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 813.333357572555542, 1305.666703939437866, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -521 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 379.395576953887939, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -966,7 +983,7 @@
 								"selection" : [ 0.177083333333333, 0.770833333333333 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 1.973303585861735,
+									"pitchshift" : 2.090642323089813,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -988,7 +1005,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1141.333367347717285, 1184.000035285949707, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ 1177 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 142.0, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -1216,7 +1232,7 @@
 								"selection" : [ 0.270833333333333, 0.729166666666667 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 1.479977689396301,
+									"pitchshift" : 1.56798174231736,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -1238,7 +1254,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 781.000023722648621, 1216.000036239624023, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ 679 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 242.0, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -1360,7 +1375,7 @@
 								"selection" : [ 0.177083333333333, 0.802083333333333 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"pitchshift" : 0.739988844698151,
+									"pitchshift" : 0.78399087115868,
 									"loop" : 1,
 									"timestretch" : 1
 								}
@@ -1382,7 +1397,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1006.666696667671204, 1230.333368539810181, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -521 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 902.0, 192.0, 150.0, 30.0 ],
 					"quality" : "basic",
@@ -3895,7 +3909,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.999999284744263, 1302.333370447158813, 47.0, 75.0 ],
+					"patching_rect" : [ 155.999999284744263, 1302.333370447158813, 51.0, 75.0 ],
 					"text" : "gain~\nvolume of simple wave"
 				}
 
@@ -4804,17 +4818,19 @@
 			}
 , 			{
 				"box" : 				{
-					"active1" : [ 0.513725490196078, 0.796078431372549, 0.780392156862745, 0.8 ],
+					"active1" : [ 0.254901960784314, 0.494117647058824, 0.517647058823529, 0.8 ],
 					"bubblesize" : 50,
 					"id" : "obj-54",
 					"maxclass" : "preset",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 422.666679263114929, 65.0, 228.0, 60.0 ],
+					"patching_rect" : [ 428.0, 65.0, 58.000000596046448, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 279.0, 286.0, 58.000000596046448, 56.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-73", "toggle", "int", 1, 5, "obj-221", "number", "int", 78, 5, "obj-75", "toggle", "int", 1, 5, "obj-222", "number", "int", 78, 5, "obj-223", "number", "int", 85, 5, "obj-217", "toggle", "int", 1, 5, "obj-219", "toggle", "int", 1, 5, "obj-224", "number", "int", 78, 5, "obj-245", "number", "int", 78, 5, "obj-233", "toggle", "int", 1, 5, "obj-238", "toggle", "int", 1, 5, "obj-246", "number", "int", 85, 5, "obj-240", "toggle", "int", 1, 5, "obj-247", "number", "int", 78, 5, "obj-243", "toggle", "int", 1, 5, "obj-248", "number", "int", 86, 5, "obj-257", "toggle", "int", 1, 5, "obj-263", "number", "int", 78, 5, "obj-7", "toggle", "int", 1, 5, "obj-29", "number", "int", 85, 5, "obj-260", "toggle", "int", 1, 5, "obj-264", "number", "int", 78, 5, "obj-262", "toggle", "int", 1, 5, "obj-265", "number", "int", 78, 5, "obj-25", "number", "int", 85, 5, "obj-51", "toggle", "int", 1, 5, "obj-49", "toggle", "int", 1, 5, "obj-24", "number", "int", 78, 5, "obj-268", "toggle", "int", 1, 5, "obj-23", "number", "int", 78, 5, "obj-275", "number", "int", 218, 5, "obj-269", "toggle", "int", 1, 5, "obj-272", "number", "int", 85 ]
+							"data" : [ 5, "obj-299", "number", "int", 0, 5, "obj-291", "toggle", "int", 0, 5, "obj-293", "toggle", "int", 1, 5, "obj-300", "number", "int", 95, 5, "obj-295", "toggle", "int", 0, 5, "obj-301", "number", "int", 0, 5, "obj-297", "toggle", "int", 1, 5, "obj-302", "number", "int", 93, 5, "obj-179", "number", "int", 0, 5, "obj-171", "toggle", "int", 0, 5, "obj-173", "toggle", "int", 1, 5, "obj-180", "number", "int", 90, 5, "obj-175", "toggle", "int", 0, 5, "obj-181", "number", "int", 0, 5, "obj-177", "toggle", "int", 1, 5, "obj-182", "number", "int", 88, 5, "obj-195", "toggle", "int", 0, 5, "obj-204", "number", "int", 0, 5, "obj-197", "toggle", "int", 0, 5, "obj-205", "number", "int", 0, 5, "obj-200", "toggle", "int", 0, 5, "obj-206", "number", "int", 0, 5, "obj-202", "toggle", "int", 1, 5, "obj-207", "number", "int", 91, 5, "obj-237", "number", "int", 0, 5, "obj-212", "toggle", "int", 0, 5, "obj-225", "toggle", "int", 1, 5, "obj-242", "number", "int", 93, 5, "obj-231", "toggle", "int", 0, 5, "obj-280", "number", "int", 0, 5, "obj-234", "toggle", "int", 0, 5, "obj-281", "number", "int", 0, 5, "obj-22", "toggle", "int", 0, 5, "obj-36", "number", "int", 0, 5, "obj-30", "toggle", "int", 1, 5, "obj-37", "number", "int", 95, 5, "obj-38", "number", "int", 0, 5, "obj-32", "toggle", "int", 0, 5, "obj-34", "toggle", "int", 1, 5, "obj-40", "number", "int", 89, 5, "obj-70", "number", "int", 0, 5, "obj-46", "toggle", "int", 0, 5, "obj-59", "toggle", "int", 1, 5, "obj-72", "number", "int", 88, 5, "obj-62", "toggle", "int", 0, 5, "obj-74", "number", "int", 0, 5, "obj-66", "toggle", "int", 1, 5, "obj-93", "number", "int", 89, 5, "obj-107", "toggle", "int", 0, 5, "obj-115", "number", "int", 0, 5, "obj-109", "toggle", "int", 1, 5, "obj-116", "number", "int", 93, 5, "obj-111", "toggle", "int", 0, 5, "obj-117", "number", "int", 0, 5, "obj-113", "toggle", "int", 0, 5, "obj-118", "number", "int", 0, 5, "obj-131", "number", "int", 0, 5, "obj-123", "toggle", "int", 0, 5, "obj-125", "toggle", "int", 1, 5, "obj-132", "number", "int", 95, 5, "obj-127", "toggle", "int", 1, 5, "obj-133", "number", "int", 87, 5, "obj-129", "toggle", "int", 1, 5, "obj-134", "number", "int", 90, 5, "obj-73", "toggle", "int", 1, 5, "obj-221", "number", "int", 87, 5, "obj-75", "toggle", "int", 0, 5, "obj-222", "number", "int", 87, 5, "obj-223", "number", "int", 78, 5, "obj-217", "toggle", "int", 0, 5, "obj-219", "toggle", "int", 1, 5, "obj-224", "number", "int", 93, 5, "obj-245", "number", "int", 93, 5, "obj-233", "toggle", "int", 0, 5, "obj-238", "toggle", "int", 1, 5, "obj-246", "number", "int", 95, 5, "obj-240", "toggle", "int", 0, 5, "obj-247", "number", "int", 95, 5, "obj-243", "toggle", "int", 0, 5, "obj-248", "number", "int", 74, 5, "obj-257", "toggle", "int", 0, 5, "obj-263", "number", "int", 76, 5, "obj-7", "toggle", "int", 1, 5, "obj-29", "number", "int", 96, 5, "obj-260", "toggle", "int", 1, 5, "obj-264", "number", "int", 88, 5, "obj-262", "toggle", "int", 1, 5, "obj-265", "number", "int", 90, 5, "obj-25", "number", "int", 91, 5, "obj-51", "toggle", "int", 1, 5, "obj-49", "toggle", "int", 0, 5, "obj-24", "number", "int", 95, 5, "obj-268", "toggle", "int", 0, 5, "obj-23", "number", "int", 95, 5, "obj-275", "number", "int", 261, 5, "obj-269", "toggle", "int", 1, 5, "obj-272", "number", "int", 95 ]
 						}
 , 						{
 							"number" : 2,
@@ -5072,7 +5088,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 132.000000596046448, 54.895576953887939, 49.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.000000596046448, 249.0, 44.0, 32.0 ]
+					"presentation_rect" : [ 279.0, 237.0, 44.0, 32.0 ]
 				}
 
 			}
@@ -5125,7 +5141,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.000000596046448, 253.895576953887939, 50.0, 22.0 ],
-					"text" : "17"
+					"text" : "4"
 				}
 
 			}
@@ -8773,7 +8789,7 @@
 
 			}
  ],
-		"originid" : "pat-1083",
+		"originid" : "pat-8",
 		"parameters" : 		{
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-346::obj-104" : [ "pictctrl[9]", "pictctrl[1]", 0 ],
