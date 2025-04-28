@@ -428,7 +428,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1189.5, 107.0, 406.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.000000596046448, 256.895576953887939, 374.0, 63.0 ],
+					"presentation_rect" : [ 436.0, 225.5, 374.0, 63.0 ],
 					"text" : "Enter the  Nightmare",
 					"textjustification" : 1
 				}
